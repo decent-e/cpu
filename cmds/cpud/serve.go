@@ -16,9 +16,9 @@ import (
 
 	// We use this ssh because it implements port redirection.
 	// It can not, however, unpack password-protected keys yet.
+	"github.com/decent-e/cpu/server"
 	"github.com/gliderlabs/ssh"
 	"github.com/mdlayher/vsock"
-	"github.com/u-root/cpu/server"
 	"github.com/u-root/u-root/pkg/ulog"
 	"golang.org/x/sys/unix"
 )

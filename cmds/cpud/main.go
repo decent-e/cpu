@@ -12,7 +12,7 @@ import (
 	// We use this ssh because it implements port redirection.
 	// It can not, however, unpack password-protected keys yet.
 
-	"github.com/u-root/cpu/session"
+	"github.com/decent-e/cpu/session"
 )
 
 var (
