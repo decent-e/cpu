@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/decent-e/cpu/client"
 	config "github.com/kevinburke/ssh_config"
-	"github.com/u-root/cpu/client"
 	"golang.org/x/sys/unix"
 )
 
