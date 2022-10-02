@@ -19,7 +19,7 @@ import (
 	// It can not, however, unpack password-protected keys yet.
 
 	config "github.com/kevinburke/ssh_config"
-	"github.com/u-root/cpu/client"
+	"github.com/decent-e/cpu/client"
 	"github.com/u-root/u-root/pkg/ulog"
 
 	// We use this ssh because it can unpack password-protected private keys.

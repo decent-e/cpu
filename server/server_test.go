@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/decent-e/cpu/session"
 	"github.com/gliderlabs/ssh"
-	"github.com/u-root/cpu/session"
 )
 
 func TestNewServer(t *testing.T) {

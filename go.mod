@@ -1,4 +1,4 @@
-module github.com/u-root/cpu
+module github.com/decent-e/cpu
 
 go 1.18
 
